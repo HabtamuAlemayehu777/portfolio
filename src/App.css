@@ -1,4 +1,12 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #032D26;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh; /* ensure it covers the full viewport */
   text-align: center;
 }
 
