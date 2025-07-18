@@ -7,11 +7,11 @@
     width: 100%;
     justify-content: space-between;
     z-index: 100;
-    background-color: #032D26;
-    /*background-image: linear-gradient(to bottom right, #032D26, #073830, #0A4239,#12574B,#208171);*/
+    filter: drop-shadow(10px);
+    backdrop-filter: blur(10px); /* the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     align-items: center;
     padding: 20px 40px;
-    -webkit-backdrop-filter: blur(10px);
     color: white;
 }
 
