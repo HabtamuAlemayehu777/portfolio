@@ -64,20 +64,3 @@
 .list-none:hover::after {
   width: 100%;
 }
-
-/*
-.list-none::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  left: 50%;
-  bottom: 0;
-  background-color: #00bcd4;
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
-
-.list-none:hover::after {
-  width: 100%;
-}*/

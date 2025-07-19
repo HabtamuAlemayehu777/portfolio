@@ -8,6 +8,7 @@ body {
   background-attachment: fixed;
   min-height: 100vh; /* ensure it covers the full viewport */
   text-align: center;
+  color: white;
 }
 
 .App-logo {
