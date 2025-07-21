@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Linkdn from "./../../Asset/linkedin.png"
+import './../../Asset/fontawesome-free-6.7.2-web/css/all.min.css'
 import './Intro.css'
 
 function Intro() {
     return(
         <div className='full-content'>
             <div className='main-box'>
-                <div className='border-left-radious border-right-radious'>
+                <div>
                     <h1 className='selamta'>Hi,</h1>
                     <h1 className='anim'>I am <span style={{color: "#33C3AC"}}>web Developer</span></h1>
                     <p className='description'>
@@ -18,15 +18,21 @@ function Intro() {
                     I enjoy turning complex problems into intuitive digital experiences
                     and continuously learning new technologies to improve my craft.
                     </p>
-                    <div className='img-border'>
-                        <img className='img-circle' src={Linkdn} alt="fsjkflj"/>
+                    <div className='social-icons'>
+                        <a href="https://www.linkedin.com/in/HabtamuAlemayehu777/" target='blank'>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href='https://github.com/HabtamuAlemayehu777' target='blank'>
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href='href="https://www.instagram.com/in/HabtamuAlemayehu777/' target='blank'>
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href='https://x.com/HabtamuAlemayehu777' target='blank'>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
                     </div>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/yordanos-ayenew-89a97a358/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/YordanosAyenew"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
+                    <a href='./asset.cv' className='btn-download' download='Habtamu_Alemayehu_CV.pdf'>Download Cv</a>
                 </div>
             </div>
         </div>
